@@ -16,6 +16,80 @@ body {
     flex-direction: column;
     font: 16px/100% "Montserrat";
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.li1{
+text-transform: uppercase;
+font-size: 14px;
+line-height: 41px;
+color: #fed136;
+font-family: "Montserrat";
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+
+    }
+.li2{
+    font-size: 14px;
+line-height: 41px;
+color: #222222;
+font-family: "Montserrat";
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+    }
+.logo{
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #fed136;
+    font-family: "Wisdom";
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .form2 {
     display: flex;
