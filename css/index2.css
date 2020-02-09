@@ -28,8 +28,9 @@ color: #fed136;
 font-family: "Montserrat";
 font-weight: 400;
 text-align: center;
+list-style-type: none;
 text-decoration: none;
-
+display: inline-block;
     }
 .li2{
     font-size: 14px;
@@ -39,6 +40,9 @@ font-family: "Montserrat";
 font-weight: 400;
 text-align: center;
 text-decoration: none;
+list-style-type: none;
+display: inline-block;
+padding-left: 42px;
     }
 .logo{
     font-size: 26px;
