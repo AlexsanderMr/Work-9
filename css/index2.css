@@ -56,7 +56,18 @@ padding-left: 42px;
     justify-content: space-around;
 }
 
-
+.me{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.menu2{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+}
 
 
 
@@ -179,4 +190,18 @@ padding-left: 42px;
     border-radius: 3px;
     background-color: #fed136;
     margin-top: 30px;
+}
+.img{
+    width: 39px;
+height: 38px;
+background-color: #fed136;
+
+}
+.p1{
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 75px;
+color: #222222;
+font-family: "Montserrat";
+font-weight: 700;
 }
