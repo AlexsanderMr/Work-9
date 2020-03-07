@@ -12,14 +12,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+ 
     font: 16px/100% "Montserrat";
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-}
+
 .li1{
 text-transform: uppercase;
 font-size: 14px;
@@ -55,11 +51,27 @@ padding-left: 42px;
     display: flex;
     justify-content: space-around;
 }
+@media(max-width: 992px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+        .menu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 .me{
     display: flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
 }
 .menu2{
     display: flex;
@@ -68,42 +80,6 @@ padding-left: 42px;
     justify-content: center;
     justify-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .h3{
     margin-top: 110px;
     text-align: center;
@@ -176,8 +152,24 @@ padding-left: 42px;
 
 .form-vrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+@media (max-width: 768px){
+    .left{
+width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .form-vrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}  
+
+
+
+
 
 .button {
     text-transform: uppercase;
